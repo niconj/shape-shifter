@@ -6,7 +6,10 @@ import ApiShape from './models/shapeModel';
 export abstract class ShapesService {
 
   public static async getShapes(): Promise<ApiShape[]> {
+    axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+
     const url = '/shapes.json';
+
     const response = await this.usersAxios.get(url);
     const data = response.data.map((shapeDto: any) => new ApiShape(shapeDto));
     return data;

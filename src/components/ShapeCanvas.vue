@@ -124,10 +124,15 @@ export default class ShapeCanvas extends Vue {
     this.updateTransformer();
   }
 
-  private getSelectedShape(): Konva.Shape {
+  private getSelectedShape(): Konva.Shape | null {
     const transformerNode = this.transformer.getStage();
     const stage = transformerNode.getStage();
-    return stage.findOne('.' + this.selectedShape.name());
+
+    if (this.selectedShape) {
+      return stage.findOne('.' + this.selectedShape.name());
+    }
+
+    return null;
   }
 
   private deleteShape() {
