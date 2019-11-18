@@ -1,4 +1,5 @@
 # shape-shifter
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -32,3 +33,6 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+A Vue - Typescript canvas playground using Konva.js
+>>>>>>> ffcbc601b5ce758340b14846ae13cd09736a4bdb
