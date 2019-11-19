@@ -1,24 +1,18 @@
 # shape-shifter
-<<<<<<< HEAD
+
+A Vue - Typescript canvas playground using [Konva.js](https://konvajs.org)
+
+shape-shifter presents the user with a whiteboard where shapes loaded from an external api are added on the first load.
+
+The user can modify any shape on the board by selecting them, as a transformation visual aid will appear and will let the user change the shape size, position and rotation angle.
+
+As a shape is selected, the user can change it's position moving it to the `left` or the `right` by pressing the arrow keys on their keyboard. The selected shape cab be deleted by pressing the `delete` button on the keyboard, or the `x` button on the lower section of the board.
+
+The user can add randomly placed rectangles by pressing the corresponding button on the lower section of the whiteboard. 
 
 ## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files
@@ -26,13 +20,12 @@ npm run test
 npm run lint
 ```
 
-### Run your unit tests
+## Run shape-shifter locally
 ```
-npm run test:unit
+npm run start
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-A Vue - Typescript canvas playground using Konva.js
->>>>>>> ffcbc601b5ce758340b14846ae13cd09736a4bdb
+### Deployed version
+```
+https://shape-shifter.now.sh
+```
