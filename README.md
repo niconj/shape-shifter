@@ -1,6 +1,6 @@
 # shape-shifter
 
-A Vue - Typescript canvas playground using Konva.js
+A Vue - Typescript canvas playground using [Konva.js](https://konvajs.org)
 
 shape-shifter presents the user with a whiteboard where shapes loaded from an external api are added on the first load.
 
